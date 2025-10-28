@@ -3,7 +3,7 @@ function Contador() {
   const [contador, setContador] = useState(0);
 
   function increment() {
-    console.log("movida dev1");
+    console.log("movida dev2 es el mejor");
 
     setContador((contadorPrevious) => contadorPrevious + 1);
     console.log("valor actual de contador", contador);
